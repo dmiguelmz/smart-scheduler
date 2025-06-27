@@ -5,25 +5,27 @@ Members:
 3. Maria Carmen Areglo
 4. Shyrene G. Susaya
 
-
-Smart Scheduler is a friendly Python program that helps manage exam schedules for both Students and Teachers.
-It uses basic text menus and allows you to Create, Read, Update, and Delete exam entries.
+We designed and implemented a simplified version of a
+Smart Scheduler that automates exam scheduling using
+CRUD (Create, Read, Update, Delete) operations. 
 
 Features
-Add new exams (with name, date, time, and room)
-VIEW all scheduled exams
-EDIT any existing exam
-DELETE an exam from the list
-Automatically prevents overlapping exams (same date & time)
+Add new exams (exam name, date, time, and room)
+View all scheduled exams
+Edit any exam
+Delete an exam
+Stops you from adding exams at the same date and time 
 
-Requirements
-Python installed on your computer (version 3 or above)
-A code editor like Visual Studio Code (VS Code)
+What You Need
+Python installed on your computer (version 3 or higher)
+A code software editor like Visual Studio Code (VS Code)
 
-To Run
-Open the folder where the scheduler.py file is saved.
-Launch VSCode and open that folder.
-Click scheduler.py to open the code.
-Click Run button at the top or right-click anywhere in the code and select "Run Python File".
-The program will open a menu in the terminal where you can interact with the code.
+How to Run It
+1. Open the folder where the `scheduler.py` file is saved.
+2. Open VS Code and open that folder.
+3. Click on `scheduler.py` to open the file.
+4. Press the Run button at the top, or
+   Right-click anywhere in the file and choose "Run Python File".
+5. A menu will appear in the terminal — you can now use the program.
+
 
