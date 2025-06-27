@@ -26,6 +26,6 @@ How to Run It
 3. Click on scheduler.py to open the file.
 4. Press the Run button at the top, or
    Right-click anywhere in the file and choose "Run Python File".
-5. A menu will appear in the terminal — you can now use the program.
+5. A menu will appear in the terminal,you can now use the program.
 
 
