@@ -21,9 +21,9 @@ Python installed on your computer (version 3 or higher)
 A code software editor like Visual Studio Code (VS Code)
 
 How to Run It
-1. Open the folder where the `scheduler.py` file is saved.
+1. Open the folder where the scheduler.py file is saved.
 2. Open VS Code and open that folder.
-3. Click on `scheduler.py` to open the file.
+3. Click on scheduler.py to open the file.
 4. Press the Run button at the top, or
    Right-click anywhere in the file and choose "Run Python File".
 5. A menu will appear in the terminal — you can now use the program.
