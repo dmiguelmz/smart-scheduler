@@ -1,5 +1,5 @@
 exams = []  
-def display_menu():
+def display_menu():               #Displays the functions
     print("\nSMART SCHEDULER ")
     print("1. Add a new exam")
     print("2. View all exams")
@@ -7,7 +7,7 @@ def display_menu():
     print("4. Delete an exam")
     print("5. Exit")
 
-def add_exam():
+def add_exam():                   #Add exams
     print("\n *Add New Exam*")
     name = input("Enter exam name: ")
     date = input("Enter exam date (YYYY-MM-DD): ")
@@ -20,7 +20,7 @@ def add_exam():
     exams.append(new_exam)
     print(f"Exam '{name}' added successfully!")
 
-def view_exams():
+def view_exams():                 # View all exams
     print("\n* All Scheduled Exams *")
     if not exams:
         print("No exams scheduled yet.")
@@ -30,7 +30,7 @@ def view_exams():
         for key, value in exam.items():
             print(f"{key.capitalize()}: {value}")
 
-def edit_exam():
+def edit_exam():                  # Edit the exam 
     view_exams()
     if not exams:
         return
@@ -51,7 +51,7 @@ def edit_exam():
     except ValueError:
         print("Please enter a valid number.")
 
-def delete_exam():
+def delete_exam():            #Deletes exam 
     view_exams()
     if not exams:
         return
