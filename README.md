@@ -1,3 +1,10 @@
+Group 4sea BSIT 1E
+1. Denmark Mahinay
+2. Ruffa Mae P.Paet
+3. Maria Carmen Areglo
+4. Shyrene G. Susaya
+
+
 Smart Scheduler is a friendly Python program that helps manage exam schedules for both Students and Teachers.
 It uses basic text menus and allows you to Create, Read, Update, and Delete exam entries.
 
